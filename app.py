@@ -114,7 +114,7 @@ def predict():
 
 @app.route('/aboutusnew')
 def aboutusnew():
-    return render_template('aboutusnew.html')
+    return render_template('aboutus.html')
 
 #----------------------------------------------------------
 
