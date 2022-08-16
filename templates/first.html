@@ -1,4 +1,5 @@
 
+
 <!doctype html>
 <html lang="en">
 
@@ -10,17 +11,36 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <style>
+        @media (min-width:"350px") and (max-width:"2000px"){
         h2 {
             text-align: center;
         }
 
 
         .head {
+            display: block;
             color: #000;
             background-color: rgb(254, 254, 253);
-            vertical-align: top;
+            /*vertical-align: top; */
         }
 
+        .main {
+            display: block;
+        }
+
+        .sponsor {
+            display: block;
+            align-items: center;
+        }
+        
+        .img-responsive{
+            display: block;
+        }
+
+        .col-md-12{
+            display: block;
+        }
+    }
 
 
         /* style="color: #FFF;background-color: #000;" */
@@ -30,37 +50,40 @@
 <body>
 
     <div class="head">
-    <nav style="width: 100%;" >
-         <a class="  navbar-brand" href="#" style="margin-left: 300px; background-color: gray; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;">
-             <img style="max-height: auto; width:50%;" src="static/image/PIET logo with tagline.jpg" 
-             class="img-responsive" style="margin-top:0px; width: auto; height: auto; min-width:100%; min-height: auto;">
+
+    <nav style="width: 1520px;" >
+         <a class="  navbar-brand" href="#" style=" background-color: gray; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;">
+             <center><img style="max-height: auto; width:50%; " src="static/image/PIET logo with tagline.jpg" 
+             class="img-responsive" style="margin-top:0px; width: auto; height: auto; min-width:100%; min-height: auto;"></center>
             </div>  
        
         </a>
         
     </nav>
+    
     </div>
-    <div style="background-color: rgba(147, 150, 142, 0.918);">
-        <a href="/aboutusnew" style="color: yellow; align-items: flex-end;">ABOUT US</a>
+    <br>
+    <div style="background-color: rgba(147, 150, 142, 0.918); width: 1520px;">
+        <a href="/aboutusnew" style="color: yellow; align-items: flex-end; font-family: cursive;">ABOUT US</a>
       </div>
 
+    <div class="main" style="background-image: url(static/image/Capture1.PNG); width: 1520px;">
 
-    <div style="background-image: url(static/image/Capture1.PNG);">
-
-           
                
 
             <div>
                 <br><br>
-                <h2 style="color:rgb(210, 237, 113); margin-top: 200px; margin-bottom: 200px; font-size:xx-large;font-family: fantasy;" ; font-family:Georgia, 'Times New Roman', Times, serif;">This Project is based Mobile Price Prediction, through different classification models</h2>
+                <h2 style="color:rgb(210, 237, 113);margin-left: 160px; margin-top: 200px; margin-bottom: 200px; font-size:xx-large;font-family: fantasy;" ; font-family:Georgia, 'Times New Roman', Times, serif;">This Project is based on Mobile Price Prediction, through different classification models</h2>
 
             </div>
             <hr style="color:white ;">
 
 
-            <div style="margin-left: 650px;">
-                <a href="/predict1" style="color: red; align-items: flex-end;">Start Getting Predictions</a>
-              </div>
+            <center>
+                <a href="/predict1" class="btn warning" style="margin-bottom: 10px; background-color:rgb(210, 237, 113); ">Start Getting Predictions</a>
+                <!-- <a href="/" style="color: rgb(9, 9, 9); align-items: center; background-color: yellow; box-shadow: 3px 3px;">Start Getting Predictions</a> -->
+                </center>
+              
 
 
 
@@ -71,30 +94,29 @@
     
         
         
-        
-
-
-    <div class="col-md-12;">
-        <center><h3 class="section-title" style="text-align: center; margin-top: 30px;">Sponsored by</h3></center>
-      </div>
     
-    <br>
-    <br>
 
-<div>
+<div class="sponsor" style="width: 1400px;"><center>
+<br><br>
+        <h3 style="align-items: center; width: 1400px; margin-left: 50px; ">Sponsored by</h3>
+     
+     <br>
+     <br>
+
  <table style="padding-bottom: 20px; margin-bottom: 60px; ">
 <tr>
     <th>
-        <img style="max-height: 200px; margin-left:500px; padding-bottom: 5px; " src="static/image/AICTEIdeaLabFooterLogo.png" alt="...">
+        <img style="max-height: 200px; align-items: center; margin-left: 150px; padding-bottom: 5px; " src="static/image/AICTEIdeaLabFooterLogo.png" alt="...">
     </th>
 
     <th>
-        <img style="max-height: 200px; margin-left:0px;" src="static/image/eNBA_logo.png" alt="..." height="300" width="300" >
+        <img style="max-height: 200px; margin-left:0px; " src="static/image/eNBA_logo.png" alt="..." height="300" width="300" >
 
     </th>
 </tr>
 
  </table>
+ </center>
       </div>
       
 
